@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Playfair Display", serif;
+    font-size:14px ;
+}
+main{
+    display: flex;
+    margin: 3% 0 7% 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid #c5c3c3;
+
+}
+nav{
+    max-width: 95%;
+    /* padding:0rem .5rem 0rem .5rem; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav:last-child{
+    margin-right: 0 auto;
+}
+h1{
+   text-align: center;
+   font-weight: normal;
+   font-size: 2rem;
+}
+article{
+    border-bottom: 1px solid #c5c3c3; 
+
+}
+.center-img img{
+    object-fit: fill;
+
+}
+img{
+    /* align-self: center; */
+width: 100%;
+}
+article:last-child{
+    border: none;
+
+}
+div{
+    padding: 1rem;
+     border-right: 1px solid #999999; 
+}
+div:last-child{
+    border:none;
+}
+
+
+.left-container,.right-container{
+    width: 40%;
+}
+.middle-container{
+ width: 60%;
+ /* border-right: 1px solid #c5c3c3; 
+ border-left: 1px solid #c5c3c3;  */
+
+
+}
+
+
+.author{
+    font-style: italic;
+    text-align: right;
+    font-weight:bold;
+}
